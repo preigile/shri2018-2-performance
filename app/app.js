@@ -1,5 +1,7 @@
 import App from "./components/App";
 
-let root = document.getElementById('root');
+const root = document.getElementById('root');
 
-root.innerHTML = App();
+console.log('app', App());
+
+root.innerHTML = `${App()}`;
