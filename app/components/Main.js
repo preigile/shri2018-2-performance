@@ -173,9 +173,9 @@ export default () => {
 
                     <div class="scenarios__page">
                         <div class="panel scenarios__panel">
-                            <div class="panel__icon panel__icon_clock"></div>
+                            <div class="panel__icon panel__icon_light_on"></div>
                             <div class="panel__text">
-                                <div class="panel__title">Я ухожу</div>
+                                <div class="panel__title">Включить свет в корридоре</div>
                             </div>
                         </div>
                     </div>
