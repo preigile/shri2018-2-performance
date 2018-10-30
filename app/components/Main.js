@@ -1,3 +1,5 @@
+import bannerImg from '../assets/banner.jpg'
+
 export default () => {
     return `
 <div class="page__wrapper">
@@ -74,6 +76,9 @@ export default () => {
                                     <div class="panel__title">Xiaomi Yeelight LED Smart Bulb</div>
                                     <div class="panel__sub">Включится в 17:00</div>
                                 </div>
+                            </div>
+                            <div class="panel main__panel panel_device panel_out_bot">
+                                <img src="${bannerImg}">
                             </div>
                         </div>
                     </div>
