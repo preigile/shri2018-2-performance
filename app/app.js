@@ -1,8 +1,8 @@
 import usefulScripts from './scripts/scripts';
 import App from "./components/App";
 
-import './styles/bootstrap.css';
 import './styles/styles.css';
+import './styles/bootstrap.css';
 
 const root = document.getElementById('root');
 
