@@ -359,10 +359,10 @@
 .logo {
   display: inline-block;
   width: 108px;
-  height: 38px;
+  height: 27px;
   position: relative;
   background: url("../assets/logo.svg") no-repeat left top;
-  background-size: contain;
+  background-size: cover;
 }
 
 .logo__ya {
