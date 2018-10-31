@@ -42,12 +42,11 @@ let maxRotate = 0.42; // 150 градусов
 let minRotate = -0.42; // -150 градусов
 
 const MIN_VALUE = 26;
-const MAX_VALUE = 35;
 const INDICATOR_OFFSET = 265;
 
 const rotateToValue = function (rotate) {
     return Math.floor((Math.abs(rotate * 360 * 1.73 + INDICATOR_OFFSET) / 53) + MIN_VALUE);
-}
+};
 
 
 /**
